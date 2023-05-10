@@ -11,5 +11,5 @@ function getEvenNumbers(arr) {
   }
   const arr = [1, 2, 3, 4, 5, 6];
   const evenNumbers = getEvenNumbers(arr);
-  console.log(evenNumbers); // Output: [2, 4, 6]
+  console.log(evenNumbers); 
   
