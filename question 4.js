@@ -1,10 +1,10 @@
 const array = ["hi", "hello", "hey", "howdy"];
 function filterStrings(array) {
-  let newstr = [];
+  let str = [];
   for (let i = 0; i < array.length; i++) {
-    if (array[i].length > 3) newstr.push(array[i]);
+    if (array[i].length > 3) str.push(array[i]);
   }
-  return newstr;
+  return str;
 }
 
 console.log(filterStrings(array));
